@@ -1,0 +1,63 @@
+/* This is the most sloppy CSS you've ever seen
+ Please protect your eyes from this mess */
+
+
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+
+.main {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+  /* border: 2px solid #4c7459; */
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  background: #24393a;
+  font-family: 'Thasadith', sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  color: #9dab78;
+}
+
+input[type=text] {
+  border: none;
+  /* border-radius: 10px; */
+  border-bottom: 2px solid #9dab78;
+  background-color: rgba(0,0,0,0.2);
+  color: #9dab78;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Thasadith', sans-serif;
+}
+
+button {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: rgba(0,0,0,0.2);
+  padding: 15px;
+  margin-top: 10px;
+  color: #9dab78;
+  font-size: 1.1em;
+  font-weight: normal;
+  width: 70%;
+  border-radius: 10px;
+  font-family: 'Thasadith', sans-serif;
+}
+
+button:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+p {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 1.3em;
+  color: #9dab78;
+}
